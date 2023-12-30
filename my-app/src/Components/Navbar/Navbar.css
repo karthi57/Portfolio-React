@@ -1,0 +1,57 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
+
+.nav-left img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nav-name{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+    
+}
+.nav-list{
+    flex:10;
+}
+    
+
+.nav-list>ul{
+    display: flex;
+    /* list-style: none; bcz we added thgat in react*/
+    gap: 3rem;
+    margin-right: 4rem; 
+    font-weight: 400;
+   
+}
+
+.nav-list>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.nav-button{
+    flex: 2;
+}
+
+
+
