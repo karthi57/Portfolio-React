@@ -32,11 +32,11 @@ const Services = () => {
     {/* right side */}
     <div className="cards">
         <motion.div
+        initial={{left: '20rem'}}
         whileInView={{left:'15rem'}}
-        initial={{left: '30rem'}}
         transition={{transition}}
 
-        style={{left:"14rem"}}>
+        style={{left:"20rem"}}>
         <Card
              emoji = {heartemoji} 
              heading = {"Design"}
@@ -47,7 +47,7 @@ const Services = () => {
         whileInView={{left:'-3rem'}}
         initial={{left: '-10rem'}}
         transition={{transition}}
-        style={{top:'12rem', left:'-4rem'}}>
+        style={{top:'12rem', left:'-6rem'}}>
         <Card
              emoji={Glasses}
              heading={"Developer"}
@@ -55,10 +55,10 @@ const Services = () => {
           />
       </motion.div>
         <motion.div
-        whileInView={{left:'14rem'}}
+        whileInView={{left:'13.5rem'}}
         initial={{left: '30rem'}}
         transition={{transition}}
-        style={{top:"21rem", left:'11rem'}}>
+        style={{top:"21rem", left:'20rem'}}>
         <Card
             emoji={Humble}
             heading={"UI/UX"}

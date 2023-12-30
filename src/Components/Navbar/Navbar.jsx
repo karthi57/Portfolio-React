@@ -4,10 +4,15 @@ import Logo from "../../img/panda-logo.jpg"
 
 // import Toggle from '../Toggle/Toggle';
 import { Link } from "react-scroll";
+import { motion } from "framer-motion"
 
 const Navbar =()=>{
  return(
-    <div className="n-wrapper">
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    duration={15}
+     className="n-wrapper">
         <div className="nav-left">
             <img src={Logo} alt="" />
             <div className="nav-name">Karthik</div>
@@ -43,7 +48,7 @@ const Navbar =()=>{
             <button className='button nav-button'>Contact Us</button>
             </Link>
         </div>
-    </div>
+    </motion.div>
 
  );
 }
