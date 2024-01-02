@@ -12,14 +12,15 @@
 }
 
 .nav-left img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
 }
 
 .nav-name{
     font-weight: bold;
     font-size: 1.3rem;
+    color: rgb(237, 236, 236);;
 }
 
 .nav-right{
@@ -32,6 +33,7 @@
 }
 .nav-list{
     flex:10;
+   
 }
     
 
@@ -41,17 +43,22 @@
     gap: 3rem;
     margin-right: 4rem; 
     font-weight: 400;
+    color: rgb(250, 246, 246);
    
 }
 
 .nav-list>ul>li:hover{
     cursor: pointer;
-    color: var(--orange);
+    font-weight: 700;
+    
 }
 
 .nav-button{
     flex: 2;
+   
 }
 
 
+
+  
 

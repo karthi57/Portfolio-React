@@ -19,7 +19,7 @@
   }
   
   .awesome > :nth-child(1) {
-    color: var(--black);
+    color: #F3F8FF;
     font-size: 2.5rem;
     font-weight: bold;
   }
@@ -29,7 +29,7 @@
     font-weight: bold;
   }
   .awesome > :nth-child(3) {
-    color: var(--gray);
+    color: rgb(18, 17, 17);
     font-size: 17px;
     margin-top: 1rem;
   }
@@ -49,15 +49,18 @@
  
   }
   
+  
   /* blur */
   .s-blur2 {
-    left: 14rem;
-    top: 8rem;
+    left: 26rem;
+    top: 1rem;
+    z-index: 1;
   }
   
   .s-blur1 {
-    top: 13rem;
-    left: -18rem;
+    top: 19rem;
+    left: -15rem;
+    z-index: 1;
   }
   
   @media screen and (max-width: 480px) {

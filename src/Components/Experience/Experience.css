@@ -14,6 +14,9 @@
     position: relative;
     margin: 100px auto;
     max-width: 1200px;
+    color: #f7f4f4;
+    z-index: 10;
+    border-radius: 10%;
 }
 
 .container{
@@ -92,7 +95,7 @@
     position: absolute;
     width: 10px;
     height: 100%;
-    background: #373535;
+    background: #eae7e7;
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -144,7 +147,7 @@
 }
 
 .Experience h1 .my{
-    color: var(--black);
+    color: rgb(60, 57, 57);
     font-size: 2.5rem;
     font-weight: bold;
   }
@@ -153,3 +156,5 @@
     font-size: 2.5rem;
     font-weight: bold;
   }
+
+  

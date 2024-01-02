@@ -30,10 +30,10 @@ const Contact = () => {
           <div className="w-left">
             <div className="awesome">
               {/* darkMode */}
-              <span style={{}}>Get in Touch</span>
+              <span style={{color:"rgb(60, 57, 57)"}}>Get in Touch</span>
               <span>Contact me</span>
               <div
-                className="blur s-blur1"
+                className="blur s-blur2"
                 style={{ background: "#ABF1FF94"}}
               ></div>
             </div>
@@ -47,7 +47,7 @@ const Contact = () => {
               <input type="submit" value="Send" className="button"/>
               <span>{done && "Thank YOU for Contacting me"}</span>
               <div
-                className="blur c-blur1"
+                className="blur s-blur1"
                 style={{ background: "var(--purple)" }}
               ></div>
             </form>

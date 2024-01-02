@@ -9,19 +9,20 @@ import { useContext } from "react";
 import { themeContext } from '../../Context';
 import { motion } from "framer-motion"
 
-const Services = () => {
+const Services = ({ onMouseEnter, onMouseLeave }) => {
     const transition = {duration : 4, type: 'spring'}
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-   <div className="services" id='services'>
+   <div className="services"
+   id='services'>
     {/* left side */}
     <div className="awesome">
         <span style={{color:darkMode? "#fff": "",
     }}>My Awesome</span>
         <span>Services</span>
         <span style={{color:darkMode? "#fff": "",
-    }}>I've successfully contributed to diverse tech projects, harnessing skills in HTML, CSS, JavaScript, React, and Python to deliver high-quality services. My dedication to excellence ensures that every project I undertake is executed with precision and professionalism.</span>
+    }}  onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>I've successfully contributed to diverse tech projects, harnessing skills in HTML, CSS, JavaScript, React, and Python to deliver high-quality services. My dedication to excellence ensures that every project I undertake is executed with precision and professionalism.</span>
         <a href={Resume} download>
         <button className='button s-button'>Download CV</button>
         </a>

@@ -33,7 +33,7 @@ const Experience = () => {
         </motion.div>
         
         <motion.div 
-        whileInView={{left:'37rem'}}
+        whileInView={{left:'37.5rem'}}
         initial={{left:'5rem'}}
         transition={{transition}}
         className="container right-container">
@@ -45,7 +45,7 @@ const Experience = () => {
                 <span className='right-container-arrow'></span>
             </div>
         </motion.div>
-        <div className="blur e-blur" style={{top:"8rem",left:"40px"}}></div>
+        <div className="blur e-blur" style={{top:"-2rem",left:"42rem", background: "#ABF1FF94"}}></div>
         <motion.div 
         whileInView={{left:'0rem'}}
         initial={{left: '-20rem'}}

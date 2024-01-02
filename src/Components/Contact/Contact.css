@@ -37,9 +37,13 @@ textarea{
     height: 4rem!important;
 }
 
-.c-blur1{
-    top: 1rem;
-    left: 8rem;
+.s-blur1{
+    top: -3rem;
+    left: 35rem;
+}
+.s-blur2{
+    top: 7rem;
+    left: -1rem;
 }
 
 @media screen and (max-width: 480px) {
