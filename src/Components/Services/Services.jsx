@@ -27,7 +27,7 @@ const Services = ({ onMouseEnter, onMouseLeave }) => {
         <button className='button s-button'>Download CV</button>
         </a>
 
-        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+        
     </div>
 
     {/* right side */}
@@ -68,7 +68,7 @@ const Services = ({ onMouseEnter, onMouseLeave }) => {
             }
             />
         </motion.div>
-        <div className=" blur s-blur"style={{backgroundz : "var(--purple"}}></div>
+       
     </div>
    </div>
   )

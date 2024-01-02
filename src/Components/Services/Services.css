@@ -52,14 +52,14 @@
   
   /* blur */
   .s-blur2 {
-    left: 26rem;
-    top: 1rem;
+    left: 12rem;
+    top: 2rem;
     z-index: 1;
   }
   
   .s-blur1 {
-    top: 19rem;
-    left: -15rem;
+    top: -7rem;
+    left: 35rem;
     z-index: 1;
   }
   
