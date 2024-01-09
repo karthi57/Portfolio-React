@@ -1,13 +1,4 @@
-.page{
-    max-width: 100%;
-   height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(36, 36, 36);
-    margin: 0;
-    padding: 0; 
-}
+
 @keyframes blinkCursor {
     50% {
       border-right-color: transparent;

@@ -3,7 +3,7 @@ import "./Loading.css"
 
 const Loading = () => {
   return (
-    <div className='page'>
+    
       <div class="terminal-loader">
   <div class="terminal-header">
     <div class="terminal-title">Status</div>
@@ -16,7 +16,7 @@ const Loading = () => {
   <div class="text">Loading...</div>
 </div>
 
-    </div>
+    
   )
 }
 
