@@ -42,15 +42,17 @@
     /* list-style: none; bcz we added thgat in react*/
     gap: 3rem;
     margin-right: 4rem; 
-    font-weight: 400;
+    font-weight: bolder;
     color: rgb(250, 246, 246);
+    font-weight: 800;
    
 }
 
 .nav-list>ul>li:hover{
     cursor: pointer;
-    font-weight: 700;
-    
+    color: #991ffc;
+    z-index: 2000;
+    font-weight: 500;
 }
 
 .nav-button{
@@ -58,7 +60,33 @@
    
 }
 
+@media screen and (max-width: 600px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
 
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list>ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .nav-list>ul>li {
+        margin-bottom: 1rem;
+    }
+
+    .nav-button {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
 
   
 

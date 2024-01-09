@@ -30,8 +30,8 @@ const Contact = () => {
           <div className="w-left">
             <div className="awesome">
               {/* darkMode */}
-              <span style={{color:"rgb(60, 57, 57)"}}>Get in Touch</span>
-              <span>Contact me</span>
+              <span style={{color:"rgb(60, 57, 57)"}}>GET IN TOUCH</span>
+              <span>CONTACT ME</span>
               <div
                 className="blur s-blur2"
                 style={{ background: "#ABF1FF94"}}

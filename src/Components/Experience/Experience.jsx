@@ -14,8 +14,8 @@ const Experience = () => {
   return (
     <div className="Experience" id='works'>
         <h1><span className='my' style={{color:darkMode? "#fff": "",
-            }}>My</span>
-            <span className='experience'>  Experience</span>
+            }}>MY</span>
+            <span className='experience'>  EXPERIENCE</span>
         </h1>
     <div className="timeline">
         <motion.div

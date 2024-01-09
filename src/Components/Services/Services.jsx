@@ -19,10 +19,10 @@ const Services = ({ onMouseEnter, onMouseLeave }) => {
     {/* left side */}
     <div className="awesome">
         <span style={{color:darkMode? "#fff": "",
-    }}>My Awesome</span>
-        <span>Services</span>
+    }}>MY AWESOME</span>
+        <span>SERVICES</span>
         <span style={{color:darkMode? "#fff": "",
-    }}  onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>I've successfully contributed to diverse tech projects, harnessing skills in HTML, CSS, JavaScript, React, and Python to deliver high-quality services. My dedication to excellence ensures that every project I undertake is executed with precision and professionalism.</span>
+    }}  onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>Crafting seamless and innovative web solutions to elevate your online presence and user experience.</span>
         <a href={Resume} download>
         <button className='button s-button'>Download CV</button>
         </a>

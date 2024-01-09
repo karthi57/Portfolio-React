@@ -8,7 +8,7 @@ import Logo from "../../img/panda-logo.jpg"
 import { Link } from "react-scroll";
 import { motion } from "framer-motion"
 
-const Navbar =({ onMouseEnter, onMouseLeave })=>{
+const Navbar =()=>{
  return(
     <motion.div
     initial={{ opacity: 0 }}
@@ -22,7 +22,7 @@ const Navbar =({ onMouseEnter, onMouseLeave })=>{
         
         </div>
         <div className="nav-right">
-            <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="nav-list">
+            <div className="nav-list">
                 <ul style={{listStyleType:"none"}}>
                     <li> <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                 Home
@@ -47,7 +47,7 @@ const Navbar =({ onMouseEnter, onMouseLeave })=>{
                 </ul>
             </div>
             <Link to="contact" spy={true} smooth={true}>
-            <button className='button nav-button'>Contact Us</button>
+            <button className='button nav-button'>Contact Me</button>
             </Link>
             
         </div>

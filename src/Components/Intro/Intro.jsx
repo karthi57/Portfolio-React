@@ -30,33 +30,33 @@ const Intro = ({ onMouseEnter, onMouseLeave }) => {
     <div className='Intro'>
       <div className="intro-left" >
         <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="intro-name"  >
-        <span >Hello!,   I am </span>
-           <span >Karthik</span>
+        <span >HELLO! , I AM </span>
+           <span >KARTHIK</span>
           <span >
-          As a Front-end Developer, I bring a fresh outlook, keen attention to detail, and a love for creating enjoyable online experiences. I thrive on blending creativity with problem-solving to bring designs to life seamlessly. Let's elevate your digital presence together!
+          I'm a Skilled Front-end Developer, with a strong focus on producing high quality & impactful digital experience.
            </span>
         </div>
-        <Link to="contact" spy={true} smooth={true}>
-           <button className="button intro-button">Hire me</button>
-        </Link>
+        <div className="hire">
+      
           {/* social icons */}
           <div className="intro-icons">
           <a href="https://github.com/karthi57"><img className='social' src={Github} alt="" /></a>
           <a href="https://www.linkedin.com/in/karthik-r-web-developer/"><img className='social' src={LinkedIn} alt="" /></a>
           {/* <a href=""><img className='social' src={Instagram} alt="" /></a> */}
         </div>
+        <Link to="contact" spy={true} smooth={true}>
+           <button className="button intro-button">Hire me</button>
+        </Link>
+        </div>
       </div>
 
       <div className="intro-right">
-        
-       
           <div className="wrapper">
-         
-          <Spline scene="https://prod.spline.design/kZ7S3s-DQ4ekB8Sl/scene.splinecode" />
+             <Spline scene="https://prod.spline.design/kZ7S3s-DQ4ekB8Sl/scene.splinecode" />
          </div>
-         </div>
-       
       </div>
+       
+    </div>
    
   )
 }
