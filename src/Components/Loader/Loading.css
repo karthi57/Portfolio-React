@@ -1,4 +1,13 @@
 
+.page{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 @keyframes blinkCursor {
     50% {
       border-right-color: transparent;
@@ -79,6 +88,7 @@
     float: left;
     line-height: 1.5em;
     color: #eee;
+    font-family: "Courier New", Courier, monospace;
   }
   
   .text {
@@ -89,5 +99,6 @@
     animation: typeAndDelete 4s steps(11) infinite,
       blinkCursor 0.5s step-end infinite alternate;
     margin-top: 1.5em;
+    font-family: "Courier New", Courier, monospace;
   }
   
