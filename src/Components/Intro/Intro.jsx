@@ -16,6 +16,7 @@ import Spline from '@splinetool/react-spline';
 import { useContext } from "react";
 import { themeContext } from '../../Context';
 import { Link } from "react-scroll";
+import { motion } from "framer-motion"
 
 
 
@@ -29,13 +30,20 @@ const Intro = ({ onMouseEnter, onMouseLeave }) => {
   return (
     <div className='Intro'>
       <div className="intro-left" >
-        <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="intro-name"  >
+        <motion.div 
+         initial={{ opacity: 0 }}
+         whileInView={{ opacity: 1 }}
+         duration={15}
+        onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="intro-name"  >
         <span >HELLO! , I AM </span>
            <span >KARTHIK</span>
-          <span >
+          <span 
+           initial={{ opacity: 0 }}
+           whileInView={{ opacity: 1 }}
+           duration={15}>
           I'm a Skilled Front-end Developer, with a strong focus on producing high quality & impactful digital experience.
            </span>
-        </div>
+        </motion.div>
         <div className="hire">
       
           {/* social icons */}
