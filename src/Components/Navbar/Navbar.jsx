@@ -38,17 +38,17 @@ const Navbar =()=>{
                 Experience
               </Link>
             </li>
-            {/* <li>
-              <Link to="portfolio" spy={true} smooth={true}>
-                Protfolio
+            <li>
+              <Link to="contact" spy={true} smooth={true}>
+                Contact
               </Link>
-            </li> */}
+            </li>
            
                 </ul>
             </div>
-            <Link to="contact" spy={true} smooth={true}>
+            {/* <Link to="contact" spy={true} smooth={true}>
             <button className='button nav-button'>Contact Me</button>
-            </Link>
+            </Link> */}
             
         </div>
     </motion.div>
