@@ -4,7 +4,7 @@ import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"
 import './Services.css'
 import Card from '../Card/Card'
-import Resume from "../Services/Resume-.pdf"
+import Resume from "../Services/Resume.pdf"
 import { useContext } from "react";
 import { themeContext } from '../../Context';
 import { motion } from "framer-motion"
