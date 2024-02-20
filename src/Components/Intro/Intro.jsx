@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Intro.css";
 
 // import Vector1 from "../../img/Vector1.png";
@@ -13,17 +13,14 @@ import LinkedIn from "../../img/linkedin.png";
 // import Instagram from "../../img/instagram.png";
 // import Floatingdiv from '../FloatingDiv/Floatingdiv';
 import Spline from "@splinetool/react-spline";
-import { useContext } from "react";
-import { themeContext } from "../../Context";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-
 // import { motion } from 'framer-motion';
 
 // const transition = {duration: 2, type :'spring'}
 const Intro = ({ onMouseEnter, onMouseLeave }) => {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+  
+
   return (
     <div className="Intro">
       <div className="intro-left">
@@ -39,7 +36,7 @@ const Intro = ({ onMouseEnter, onMouseLeave }) => {
           <span>KARTHIK</span>
           <span
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            whileinview={{ opacity: 1 }}
             duration={15}
           >
             I'm a Skilled Front-end Developer, with a strong focus on producing
@@ -72,7 +69,7 @@ const Intro = ({ onMouseEnter, onMouseLeave }) => {
 
       <div className="intro-right">
         <div className="wrapper">
-          <Spline scene="https://prod.spline.design/kZ7S3s-DQ4ekB8Sl/scene.splinecode" />
+        <Spline loading="eager" scene="https://prod.spline.design/kZ7S3s-DQ4ekB8Sl/scene.splinecode" />
         </div>
       </div>
     </div>
