@@ -50,7 +50,9 @@
 
 .nav-list>ul>li:hover{
     cursor: pointer;
-    color: #991ffc;
+    color: rgba(128, 128, 128,0.05);
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    background-clip: text;
     z-index: 2000;
     font-weight: 500;
 }

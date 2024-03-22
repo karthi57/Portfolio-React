@@ -19,12 +19,12 @@
     overflow: hidden;
     color: var(--black); 
     overflow-x: hidden;
-    background-color: rgb(30, 29, 29); 
+    background-color: rgba(30, 29, 29, 0.781); 
     
 }
 
 .button{
-  background: linear-gradient(180deg, #520ffd 26.71%, #9c2ffb 99.36%);
+  background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
   box-shadow: 0px 20px 24px 3px rgba(40, 50, 251, 0.42);
   border-radius: 6px;
   border: none;
@@ -37,8 +37,8 @@
 .button:hover {
   background: white;
   cursor: pointer;
-  border: 1px solid var(--orange);
-  color: var(--orange);
+  border: 1px solid #867efb;
+  color: #867efb;
 }
 
 

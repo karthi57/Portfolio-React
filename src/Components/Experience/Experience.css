@@ -5,7 +5,10 @@
     content-visibility: auto;
   }
   .Experience span.experience{
-    color: var(--blue);
+    color: rgba(128, 128, 128,0.05);
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    background-clip: text;
+    background-repeat: no-repeat;
     font-size: 2.5rem;
     font-weight: bold;
   }

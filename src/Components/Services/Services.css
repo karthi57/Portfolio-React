@@ -24,7 +24,10 @@
     font-weight: bold;
   }
   .awesome > :nth-child(2) {
-    color: var(--orange);
+    color: rgba(128, 128, 128,0.05);
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    background-clip: text;
+    background-repeat: no-repeat;
     font-size: 2.5rem;
     font-weight: bold;
   }
@@ -134,7 +137,7 @@
     z-index: -7;
     border-radius:4px;
     transform: translateY(0%);
-    background-color: var(--orange);
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
     border: solid 1px #5601e02d;
     transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
     cursor: pointer;

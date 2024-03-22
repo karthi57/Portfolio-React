@@ -9,8 +9,8 @@
     width: 10rem;
     text-align: center;
     background: white;
-    border: 7px solid  var(--orange);
-    box-shadow:  0px 20px 24px 3px rgba(40, 50, 251, 0.42);
+    border: 7px solid rgba(102, 109, 245, 0.595) ;
+    box-shadow:  0px 20px 24px 3px rgba(102, 109, 245, 0.595);
     border-radius: 20px;
     padding: 0px 26px 2rem 26px;
   }
