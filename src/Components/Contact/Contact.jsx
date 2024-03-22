@@ -34,7 +34,7 @@ const Contact = () => {
               <span>CONTACT  ME</span>
               <div
                 className="blur s-blur2"
-                style={{ background: "#ABF1FF94"}}
+                style={{ background: "#98edfe94"}}
               ></div>
             </div>
           </div>
