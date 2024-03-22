@@ -17,7 +17,7 @@ const Intro = ({ onMouseEnter, onMouseLeave }) => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          duration={15}
+          duration={20}
           className="intro-name"
         >
           <span>HELLO! , I AM </span>
