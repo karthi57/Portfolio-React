@@ -2,6 +2,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
+   
 }
 
 .nav-left{
@@ -12,23 +13,21 @@
 }
 
 .nav-left img{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 
 .nav-name{
     font-weight: bold;
     font-size: 1.3rem;
-    color: rgb(237, 236, 236);;
+    color: rgb(237, 236, 236);
 }
 
 .nav-right{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
-    
     
 }
 .nav-list{
@@ -54,7 +53,7 @@
     background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
     background-clip: text;
     z-index: 2000;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .nav-button{
