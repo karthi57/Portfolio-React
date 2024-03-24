@@ -23,7 +23,7 @@ function App() {
       const fetchFakeData = ()=>{
           setTimeout(()=>{
             setIsLoading(false)
-          },30)
+          },3000)
       }
       fetchFakeData();
   },[])
