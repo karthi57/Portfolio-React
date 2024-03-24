@@ -23,7 +23,7 @@ function App() {
       const fetchFakeData = ()=>{
           setTimeout(()=>{
             setIsLoading(false)
-          },3000)
+          },30)
       }
       fetchFakeData();
   },[])
@@ -93,7 +93,7 @@ function App() {
 
 
   // Define a threshold to change the background color
-  const threshold = 1400;
+  const threshold = 1100;
   const backgroundColor = scrollPosition > threshold ? "new-color" : "default-color";
 
   return (

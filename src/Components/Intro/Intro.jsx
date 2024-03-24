@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Intro.css";
 
 
@@ -8,7 +8,7 @@ import Spline from "@splinetool/react-spline";
 
 import { motion } from "framer-motion";
 
-const Intro = ({ onMouseEnter, onMouseLeave }) => {
+const Intro = () => {
   
 
   return (
@@ -20,7 +20,7 @@ const Intro = ({ onMouseEnter, onMouseLeave }) => {
           duration={20}
           className="intro-name"
         >
-          <span>HELLO! , I AM </span>
+          <span>HELLO! ,  I AM </span>
           <span>KARTHIK</span>
           <span
             initial={{ opacity: 0 }}

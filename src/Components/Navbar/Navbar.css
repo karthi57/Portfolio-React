@@ -1,20 +1,26 @@
 .n-wrapper{
+    position: relative;
     height: 10vh;
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-   
+    z-index: 999;
+    
 }
 
 .nav-left{
     display: flex;
+    margin-left: 1.5rem;
     align-items: center;
-    gap: 1rem;
-    flex: 1;
+    justify-content: space-around;
+    
 }
 
 .nav-left img{
     height: 50px;
     width: 50px;
+    margin-right: 10px;
     border-radius: 50%;
 }
 
@@ -44,7 +50,7 @@
     font-weight: bolder;
     color: rgb(250, 246, 246);
     font-weight: 800;
-   
+
 }
 
 .nav-list>ul>li:hover{
@@ -52,8 +58,8 @@
     color: rgba(128, 128, 128,0.05);
     background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
     background-clip: text;
-    z-index: 2000;
     font-weight: bold;
+    transition: 0.1s ease;
 }
 
 .nav-button{
@@ -61,7 +67,7 @@
    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .nav-list {
         display: none;
         flex-direction: column;
@@ -87,7 +93,26 @@
         align-items: center;
         cursor: pointer;
     }
+
+    .nav-name{
+        font-size: 1.1rem;
+    }
+    
 }
 
   
 
+/* .nav-list .items li:before{
+    position: absolute;
+    content: '';
+    background: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+.nav-list .items li:hover:before{
+    width: 100%;
+   
+} */

@@ -1,10 +1,10 @@
 .contact-form{
-    padding: 0 3rem 0 3rem;
+    padding: 5rem 3rem 0 5rem;
     display: flex;
     height: 80vh;
     margin-top: 4rem;
       /* scroll */
-  padding-top: 3rem;
+  
 }
 
 .c-right{
@@ -32,6 +32,16 @@
     border-radius: 8px;
     font-size: 16px;   
 }
+.c-right span{
+    color: rgba(128, 128, 128,0.05);
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    background-clip: text;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    word-spacing: 2px;
+}
+
 
 textarea{
     height: 4rem!important;
@@ -46,15 +56,30 @@ textarea{
     left: -1rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
     .contact-form{
         padding: 0;
         flex-direction: column;
-        gap: 5rem;
-        height: 40rem;
+        gap: 1rem;
+        height: 41rem;
     }
     .c-right .user{
         width: 16rem;
+    }
+
+    .awesome{
+        margin-left: 2rem;
+    }
+    .c-right span{
+        font-size: 1rem;
+    }
+    .w-left{
+        margin-left: 2.5rem;
+    }
+    .s-blur2{
+        top: 7rem;
+        left: 4rem;
+        transform: scale(0.6);
     }
 
 }   

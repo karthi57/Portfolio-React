@@ -1,82 +1,65 @@
-/* .footer {
-    display: flex;
-    align-items: center;
-    margin: -0.5rem -3.5rem;
-    position: relative;
-    margin-top: -7rem;
-    min-height: 100vh;
-   
-  } */
-  /* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  } */
-  
- 
-  
+
   .footer {
     position: relative;
-    width: 150%;
+    width: 100%;
     background: #3586ff;
     min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin: -0.5rem -3.5rem;
-    margin-top: -7rem;
   }
   .f-content {
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:flex-start;
+    justify-content:center;
     cursor: pointer;
-    width: 100%;
-    margin: 6rem 0px 0px 30%;
+    width: 100%; 
+  }
+
+  .icion-icon{
+    position: relative;
     
-    gap: 4rem;
-    color: white;
   }
   .f-icons {
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+    width: 100%; 
+    gap: 1rem;
+    color: white;
     
   }
-  .f-icons a.social{
-      transition: 0.5s;
-      height: 40px;
-      width: 40px;
-      margin-left: 5%;
   
-  }
-  .f-icons a:hover{
-    cursor: pointer;
-    transform: translateY(-15px);
-  }
   
   span.email{
-        margin-top: 1%;
-        display: flex;
-        flex-direction: column;
-        margin-left: -8%;
+       color: rgb(6, 6, 6);
   }
   .credit{
-    margin-left: -83%;
+    
    font-size: small;
-    margin-top: -5%;
+    
   }
   .copy{
     font-size: medium;
-    margin-left: -80%;
+    
   }
-  @media screen and (max-width: 480px){
+
+  .icion-icon .f-icons .social{
+    position: relative;
+    z-index: 9999;
+  }
+.f-content .icon-icon .f-icons .social:hover{
+  transform: translateY(-20px);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+  @media screen and (max-width: 1000px){
     .f-content{
       transform: scale(.5);
     }
+  
   }
 
   

@@ -1,21 +1,19 @@
 .services {
-    padding: 0 3rem 0 3rem;
+    padding: 3rem 0 0 3rem;
     display: flex;
     height: 30rem;
-    margin-top: 2rem;
-    margin-bottom: 20rem;
+    margin: 2rem 0 20rem  0;
     /* scroll view */
-    padding-top: 3rem;
     max-width: 50%;
   }
+
   /* left side */
   .awesome {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-right: 6rem;
+   
     
-    /* gap: 20px; */
   }
   
   .awesome > :nth-child(1) {
@@ -23,6 +21,7 @@
     font-size: 2.5rem;
     font-weight: bold;
   }
+
   .awesome > :nth-child(2) {
     color: rgba(128, 128, 128,0.05);
     background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
@@ -31,19 +30,16 @@
     font-size: 2.5rem;
     font-weight: bold;
   }
+
   .awesome > :nth-child(3) {
     color: rgb(18, 17, 17);
     font-size: 17px;
     margin-top: 1rem;
     text-transform: uppercase;
     font-size: 2.5rem;
+
   }
-  .s-button {
-   padding: 0px -5px !important;
-    width: 11rem;
-    height: 3rem;
-    margin-top: 3rem;
-  }
+
   /* right sided */
   .cards {
     position: relative;
@@ -68,22 +64,49 @@
     z-index: 1;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1000px) {
     .services {
-      margin-top: 0;
+      margin-top: -10rem;
       flex-direction: column;
+      max-width: 100%;
       gap: 5rem;
-      height: 66rem;
+      height: 100%;
+      padding: 0 2rem 0 2rem;
+    }
+    
+    .awesome {
+      margin:0;
       padding: 0;
+    }
+
+    .awesome > :nth-child(1),.awesome > :nth-child(2)
+    {
+      font-size: 2rem;
+      max-width: 100%;
+     
+    }
+    .awesome > :nth-child(3){
+      font-size: 1.7rem;
     }
   
     .cards {
       display: flex;
       flex-direction: column;
       gap: 17rem;
-    }
+    } 
+      
+
     .cards > * {
       position: static;
+      margin-bottom: 2rem;
+    
+    }
+  
+
+    .awesome a .download-button{
+      margin-top: 1rem;
+      margin-left: -5%;
+      transform: scale(0.8);
     }
   }
 
@@ -94,7 +117,7 @@
   .download-button {
     position: relative;
     border-width: 0;
-    background-color: rgb(30, 29, 29);
+    background-color: transparent;
     color: rgb(16, 16, 16);
     font-size: 18px;
     font-weight: 600;

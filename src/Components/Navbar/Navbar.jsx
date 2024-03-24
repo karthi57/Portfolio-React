@@ -23,7 +23,7 @@ const Navbar =()=>{
         </div>
         <div className="nav-right">
             <div className="nav-list">
-                <ul style={{listStyleType:"none"}}>
+                <ul className='items' style={{listStyleType:"none"}}>
                     <li> <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                 Home
               </Link>
