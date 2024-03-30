@@ -29,6 +29,7 @@ const Intro = () => {
           >
           </span>
         </motion.div>
+  
         <div className="hire">
           <div class="scrolldown">
             <div class="chevrons">
@@ -37,6 +38,12 @@ const Intro = () => {
             </div>
           </div>
         </div>
+        <div className="main-slogan">
+              <div className="text-content">
+                <span className="slogan">Helping nice people, <span className="build"> build </span> nice product</span>
+              </div><br></br>
+              <span className="slogan2">Building Better Web Experiences</span>
+        </div>
       </div>
 
       <div className="intro-right">
@@ -44,6 +51,7 @@ const Intro = () => {
         <Spline loading="eager" scene="https://prod.spline.design/kZ7S3s-DQ4ekB8Sl/scene.splinecode" />
         </div>
       </div>
+      
     </div>
   );
 };

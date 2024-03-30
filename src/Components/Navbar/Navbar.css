@@ -49,7 +49,7 @@
     margin-right: 4rem; 
     font-weight: bolder;
     color: rgb(250, 246, 246);
-    font-weight: 800;
+    font-weight: 600;
 
 }
 
@@ -58,7 +58,7 @@
     color: rgba(128, 128, 128,0.05);
     background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
     background-clip: text;
-    font-weight: bold;
+    font-weight: 600;
     transition: 0.1s ease;
 }
 

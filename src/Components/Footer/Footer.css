@@ -5,6 +5,7 @@
     background: #3586ff;
     min-height: 100px;
     flex-direction: column;
+    padding-bottom: 100px;
   }
   .f-content {
     position: relative;
@@ -58,6 +59,7 @@
   @media screen and (max-width: 1000px){
     .f-content{
       transform: scale(.8);
+      margin-bottom: 100px;
     }
   
   }

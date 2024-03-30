@@ -2,6 +2,8 @@ import Loader from "./Components/Loader/Loading"
 import Navbar from "./Components/Navbar/Navbar";
 import Intro from "./Components/Intro/Intro";
 import "./App.css"
+import { lazy,Suspense } from 'react';
+
 
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
@@ -13,6 +15,7 @@ import Experience from "./Components/Experience/Experience";
 import { motion } from "framer-motion";
 
 function App() {
+  const MarkdownPreview = lazy(() => import('./Components/Experience/Experience'));
   const [scrollPosition, setScrollPosition] = useState(0);
 
   //loader state
@@ -93,7 +96,7 @@ function App() {
 
 
   // Define a threshold to change the background color
-  const threshold = 1100;
+  const threshold = 1400;
   const backgroundColor = scrollPosition > threshold ? "new-color" : "default-color";
 
   return (
@@ -108,7 +111,7 @@ function App() {
     <Navbar onMouseEnter={textEnter} onMouseLeave={textLeave} />
     <Intro onMouseEnter={textEnter} onMouseLeave={textLeave} />
     <Services onMouseEnter={textEnter} onMouseLeave={textLeave} />
-    <Experience />
+    <Experience/>
     <Contact />
     {/* <Testimonial /> */}
     <Footer />

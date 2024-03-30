@@ -12,16 +12,13 @@ const Experience = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
   return (
-    <div className="Experience" id='works'>
+    <div className="Experience" id='works' load="lazy">
         <h1><span className='my' style={{color:darkMode? "#fff": "",
             }}>MY</span>
             <span className='experience'>  EXPERIENCE</span>
         </h1>
     <div className="timeline">
-        <motion.div
-        whileInView={{left:'0rem'}}
-        initial={{left: '-20rem'}}
-        transition={{transition}}
+        <div
         className="container left-container">
             <div className="text-box">
                 <img src={Global} alt="" />
@@ -30,12 +27,9 @@ const Experience = () => {
                 <p>I'm excited to be one of the 10 selected trainees at Global Quest Technology, where I'm eager to embark on a journey of learning Java,Python Full Stack Development,refining my soft skills, and aptitude to fuel my growth in the tech industry.</p>
                 <span className='left-container-arrow'></span>
             </div>
-        </motion.div>
+        </div>
         
-        <motion.div 
-        whileInView={{left:'37.5rem'}}
-        initial={{left:'5rem'}}
-        transition={{transition}}
+        <div
         className="container right-container">
             <div className="text-box">
                 <img src={Tackle} alt="" />
@@ -44,12 +38,9 @@ const Experience = () => {
                 <p>During my internship at Tackle, I collaborated with a dynamic team of four to craft the user experience, design the user interface, and handle frontend development for an innovative INFO chat AI app..</p>
                 <span className='right-container-arrow'></span>
             </div>
-        </motion.div>
+        </div>
         <div className="blur e-blur" style={{top:"-2rem",left:"42rem", background: "#ABF1FF94"}}></div>
-        <motion.div 
-        whileInView={{left:'0rem'}}
-        initial={{left: '-20rem'}}
-        transition={{transition}}
+        <div
         className="container left-container anasoft">
             <div className="text-box">
                 <img src={Anasoft} alt="" />
@@ -58,7 +49,7 @@ const Experience = () => {
                 <p>During my time at Anasoft, I had the opportunity to work on the Shardaha PU College website, where I applied my skills in web design and development to create a user-friendly and visually appealing online platform for the college community and its stakeholders.</p>
                 <span className='left-container-arrow'></span> 
             </div>
-        </motion.div>
+        </div>
     </div>
     </div>
   )

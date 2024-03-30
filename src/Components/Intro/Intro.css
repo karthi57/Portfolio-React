@@ -65,7 +65,44 @@
     filter: blur(70px);
   }
 
-  
+  .main-slogan{
+    
+    color: rgb(237, 236, 236);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 650;
+    font-size: 4rem;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .text-content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 5%;
+    top:35%;
+  }
+
+
+  .build{
+    color: #0f0f0f1d;
+    background-image: linear-gradient(-225deg, #5574c9 0%, #B19FFF 48%, #ECA1FE 100%);
+    background-clip: text;
+    background-repeat: no-repeat;;
+  }
+
+  .slogan2{
+    position: relative;
+    top: 10%;
+    color: rgb(237, 236, 236);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+  }
   
 
 
@@ -87,13 +124,48 @@
     .intro-name > :nth-child(2){
       font-size: 4.5rem;
     }
-  
+  .intro-right
+  {
+    width: 100%;
+ 
+  }
     .intro-right .wrapper  {
-      transform: scale(0.6);
+      transform: scaleY(0.6);
+      width: 100% !important;
       margin-top:-10% ;
       margin-bottom: -10rem;
+      
     }
+canvas
+{
+ 
+  width: 100% !important;
+  overflow: hidden;
+  
+}
 
+    .main-slogan{
+      
+      transform: scale(0.8);
+      font-size: 2rem;
+      max-width: 100%;
+      align-items: start;
+
+    }
+    .text-content{
+      margin: 0;
+      top: 0%;
+      
+    }
+    .slogan{
+      max-width: 100%;
+      margin: 0;
+    }
+    .slogan2{
+      top: -3rem;
+      font-size: 1rem;
+      left:5%
+    }
     
   }
 
